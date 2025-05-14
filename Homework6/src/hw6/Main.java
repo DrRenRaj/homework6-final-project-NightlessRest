@@ -2,6 +2,7 @@
 	Brian G. Escobar
 	CS 1050
 	Homework 6
+*
 */
 
 
@@ -101,6 +102,7 @@ class Library{
 	}
 	// Method to search for books by title
 	public void searchByTitle(String title) {
+		//checking for title starts with.
 		System.out.println("Books which titles start with the following: " + title);
 		boolean found = false;
 		for(Book bookie: books) {
